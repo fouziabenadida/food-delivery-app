@@ -1,0 +1,60 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "The Pizza Place",
+      "image": "https://images.unsplash.com/photo-1528137871618-79d2761e3fd5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Italian",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Sushi World",
+      "image": "https://plus.unsplash.com/premium_photo-1668146932065-d08643791942?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Japanese",
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "name": "Burger Town",
+      "image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+      "cuisine": "American",
+      "rating": 4.2
+    },
+    {
+      "id": 4,
+      "name": "Taco Fiesta",
+      "image": "https://images.unsplash.com/photo-1713667417747-67b2c73e9f27?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Mexican",
+      "rating": 4.6
+    },
+    {
+      "id": 5,
+      "name": "Curry House",
+      "image": "https://plus.unsplash.com/premium_photo-1675727579542-ad785e1cee41?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Indian",
+      "rating": 4.8
+    },
+    {
+      "id": 6,
+      "name": "Parisian Café",
+      "image": "https://images.unsplash.com/photo-1528699633788-424224dc89b5?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "French",
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "name": "Dragon's Delight",
+      "image": "https://plus.unsplash.com/premium_photo-1661265946882-e2a01db641d4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Chinese",
+      "rating": 4.4
+    },
+    {
+      "id": 8,
+      "name": "Mediterraneo",
+      "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "cuisine": "Mediterranean",
+      "rating": 4.9
+    }
+  ]
+}
