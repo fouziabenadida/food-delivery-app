@@ -34,7 +34,7 @@ const HomePage: React.FC = () => {
   }, []);
 
   if (loading) {
-    return <p>Loading...</p>;
+    <div className="spinner"></div>;
   }
 
   if (error) {
