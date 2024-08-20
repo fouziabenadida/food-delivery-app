@@ -2,10 +2,16 @@ import React, { useState } from "react";
 import "./Header.css";
 import foodie2 from "../../assets/foodie2.jpg";
 import user from "../../assets/user.png";
+
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
+  const toggleMenu = () => {
+    setIsMenuOpen((prev) => {
+      console.log("Menu is now", !prev ? "open" : "closed"); // Add this line
+      return !prev;
+    });
+  };
 
   return (
     <header className="header">
