@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #ff6347; /* Tomato */
+  --secondary-color: #4caf50; /* Green */
+  --font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--font-family);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
