@@ -4,7 +4,7 @@ import HomePage from "./pages/homePage/HomePage";
 import RestaurantPage from "./pages/restaurantPage/RestaurantPage";
 import CartPage from "./pages/cartPage/CartPage";
 import CheckoutPage from "./pages/checkoutPage/CheckoutPage";
-import Footer from "./components/footer/Footer";
+import SignUpPage from "./pages/signUp/SignUpPage";
 import "./styles/variables.css";
 
 const App: React.FC = () => {
@@ -27,6 +27,7 @@ const App: React.FC = () => {
         />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
       </Routes>
     </Router>
   );

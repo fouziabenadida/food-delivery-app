@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import foodie2 from "../../assets/foodie2.jpg";
 import user from "../../assets/user.png";
+import { Link } from "react-router-dom";
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,11 +35,14 @@ const Header: React.FC = () => {
           </ul>
         </nav>
         <div className="actions">
-          <a href="/profile" className="profile">
+          <Link className="profile" to={"/profile"}>
             <img src={user} alt="Profile" />
-          </a>
-          <button className="btn-sign-in">Sign In</button>
+          </Link>
+          <Link to={"/signup"}>
+            <button className="btn-sign-in">Sign Up</button>
+          </Link>
         </div>
+
         <button className="burger" onClick={toggleMenu}>
           <span className="burger-line"></span>
           <span className="burger-line"></span>

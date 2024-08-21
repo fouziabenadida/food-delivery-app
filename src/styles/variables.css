@@ -2,8 +2,26 @@
   --primary-color: #ff6347; /* Tomato */
   --secondary-color: #4caf50; /* Green */
   --font-family: 'Roboto', sans-serif;
+  --header-footer-background: #fff;
+  --header-footer-border: #ddd;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header, footer {
+  width: 100%;
+  background-color: var(--header-footer-background); 
+  box-shadow: var(--box-shadow); 
+  padding: 20px;
+  box-sizing: border-box;
 }
 
+header {
+  border-bottom: 1px solid var(--header-footer-border); 
+}
+
+footer {
+  border-top: 1px solid var(--header-footer-border); 
+  margin-top: auto; 
+}
 html, body {
   margin: 0;
   padding: 0;
