@@ -84,6 +84,11 @@ label {
   margin-right: 10px;
 }
 
+.recaptcha-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; 
+}
 .signup-button {
   background-color:#e67e22; 
   color: #fff;
